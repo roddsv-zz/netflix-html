@@ -12,7 +12,7 @@
 
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -44,7 +44,7 @@ header nav a:hover{
 .filme-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url("../img/capa-house.jpg");
-    
+
 height: 400px;
 background-size: cover;
 
@@ -98,4 +98,8 @@ align-items: flex-start;
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carousel-filmes {
+    margin-top: 3px;
 }
